@@ -1,4 +1,3 @@
-import 'dart:js_interop';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -220,39 +219,22 @@ class _FacebookscreenState extends State<Facebookscreen> {
                         SizedBox(width: 5,),
                         Icon(CupertinoIcons.multiply),
                       ],),
-                      // Row(
-                      //   children: [
-                      //
-                      //     SizedBox(height: 45, width: 4,),
-                      //     CircleAvatar(),
-                      //   SizedBox(height:1 , width:5 ,),
-                      //     Text('mahnoor'),
-                      //     Text('5h'),
-                      //     Icon(CupertinoIcons.globe),
-                      //     Icon(Icons.more_horiz_sharp),
-                      //     Icon(CupertinoIcons.multiply),
                     ]
                 )
             ),
             SizedBox(height: 2,),
+    //SingleChildScrollView(scrollDirection: Axis.vertical,
+    //child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text('#seychelles #africa'),
               ), Container(
-              height: 152,
-              width: 900,
+              height: 160,
+              width: 500,
               child: Image.asset('assets/picture.jpg', fit: BoxFit.cover,),
             ),
-            SizedBox(height: 25,),
-            BottomNavigationBar(
-                elevation: 0, items: [BottomNavigationBarItem(label: 'back',
-                icon: Icon(Icons.arrow_back)),
-              BottomNavigationBarItem(label: 'home',
-                  icon: Icon(Icons.home_max_rounded)),
-              BottomNavigationBarItem(label: 'scroll btw apps',
-                  icon: Icon(Icons.expand_more_rounded)),
-            ])
           ]
       ),);
+
   }
 }
