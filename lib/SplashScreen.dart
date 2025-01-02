@@ -30,7 +30,7 @@ class _SplashscreenState extends State<Splashscreen> {
             Icon(Icons.facebook_rounded,color: Colors.blue,),
             Text('Facebook'),
             SizedBox(height: 50,),
-            Text('Developed by Momina Tufail'),
+            Text('Submitted by Momina Tufail'),
           ]
           ),
         ),
